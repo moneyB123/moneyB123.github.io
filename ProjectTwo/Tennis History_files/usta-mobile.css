@@ -1,0 +1,2841 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #eee;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+        margin: 0;
+}
+
+/***********************************/
+/*********** STRUCTURE **************/
+/***********************************/
+
+.wrapper {
+	background: #EAEAEA;
+}
+
+.usta_header {
+	width: 1000px;
+}
+
+#header{padding:11px 10px 11px 10px; background:url(../images/usta/header-bg.jpg) top left repeat-x;}
+
+.TennisLinkWrapper {
+	float:left;
+	width: 100%;
+	background: #eee;
+	height:auto !important;  /*height:650px;*/
+}
+
+.TennisLinkBody {
+	padding: 8px;
+}
+
+.TennisLinkRightRail {
+background:none repeat scroll 0 0 #EAEAEA;
+border-top:3px solid #FFFFFF;
+float:left;
+height:auto;
+width:171px;
+}
+
+.TennisLinkFooter {
+	clear: both;
+	overflow: auto;
+	color: #fff;
+	padding: 12px 0px 12px 0px;
+}
+
+.TennisLinkFooter .box-left, .TennisLinkFooter .box-right, .TennisLinkFooter .box-middle {
+border: 1px solid #2f5b8a;
+padding: 10px;
+margin: 0px 12px 0px 0px;
+position: relative;
+}
+
+.TennisLinkFooter .box-left {
+	width: 220px;
+	float:left;
+}
+
+.TennisLinkFooter .box-right {
+	float: right;
+	width: 220px;
+	margin-right: 0px;
+}
+
+.TennisLinkFooter .box-middle {
+	width: 468px;
+	float:left;
+}
+
+.USTAFooter {
+	clear: both;
+	overflow: auto;
+	color: #fff;
+	text-align:center;
+}
+
+/***********************************/
+/*********** COMMON STYLES **********/
+/***********************************/
+
+a {
+ color: #1A8CFF;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #1A8CFF;
+ text-decoration: underline;
+}
+
+p {
+margin: 0 20px 1.5em 0px;
+}
+
+h1 {
+	font-size: 25px;
+	color: #333;
+}
+
+h2 {
+	font-size: 18px;
+	color: #333333;
+	margin: 0px 0px 8px 0px;
+}
+
+h3 {
+	font-size: 14px;
+	color: #333333;
+	padding: 0;
+	margin: 0px 20px 8px 0px;
+}
+
+.float-left {
+	float: left;
+        width: 99%;
+}
+
+ul.plain-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: auto;
+}
+
+ul.plain-list li {
+	list-style: none;
+	display: block;
+	margin: 0px 0px 6px 0px;
+}
+
+.button {
+	background:url(../../Common/images/button-back.jpg) repeat-x;
+	color: #fff;
+	height: 19px;
+	border: 1px solid #255fa8;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 10px;
+	padding: 3px 0px 0px 0px;
+	text-shadow: #000 1px 1px 1px;
+}
+
+.button:hover {
+	background:red;
+	color: #fff;
+	border: 1px solid #bb0000;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.button-small{
+    width:60px;
+    margin-left:4px; 
+    height:17px
+}
+
+.inline-alert {
+	color: #990000;
+	line-height: 12px;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+.CommonBox {
+	border: 1px solid #e5e5e5;
+	padding: 2px;
+        background:#fff;
+}
+
+.CommonTable thead{
+	background:url(../../Common/images/blue-gradient-short.jpg) repeat-x top;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+.CommonTable thead.tabbedsubhead{
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	color: #666;
+	font-weight: bold;
+}
+
+.CommonTable thead.tabbedsubhead span {
+	display: inline-block;
+	float:left;
+	padding: 2px 6px 0px 10px;
+}
+
+.CommonTable thead th {
+	font-weight: bold;
+	padding: 8px 6px;
+}
+
+.CommonTable tbody {
+margin: 0px;
+}
+
+.CommonTable td {
+	padding: 7px 6px;
+	margin: 0;
+	border-top: 1px solid #e5e5e5;
+	font-size: 11px;
+}
+
+.CommonTable td.subhead {
+	background: #f2f2f2;
+	font-weight: bold;
+	border-right: 1px solid #e5e5e5;
+	border-bottom: 1px solid #fff;
+	padding: 7px 6px;
+}
+
+.CommonTable td.break {
+	word-break: break-all;
+}
+
+/* ht */
+.CommonTable tr.subhead th {
+	background: #f2f2f2;
+	font-weight: bold;
+	border-right: 1px solid #e5e5e5;
+	/*border-bottom: 1px solid #fff; */
+	padding: 3px 6px;
+}
+/* ht */
+.CommonTable td.left {	
+	border-left: 1px solid #e5e5e5;	
+}
+
+.CommonTable td.top {
+border-top: 2px solid #e5e5e5;
+}
+
+.CommonTable td.bottom {
+border-bottom: 2px solid #e5e5e5;
+}
+
+.CommonTable td.td-combined{
+	border-right: 1px solid #e5e5e5;
+        background: #fff;
+}
+
+.CommonTable.Segmented {
+	margin-bottom:15px;
+	}
+	
+.CommonTable.Segmented.last {
+	margin-bottom:0px;
+	}
+	
+.CommonTable.Segmented td {
+	vertical-align:top;
+	}
+
+.CommonTable.Segmented .tabbedsubhead th {
+	font-weight:bold; 
+	font-size:14px; line-height:14px; 
+	color:#000; padding:10px 0 12px 6px;
+	}
+	
+.CommonTable.Segmented .col_spacer {
+	border:none; background:#fff; width:5px;
+	margin:0; padding:0;
+	}
+	
+.CommonTable.Segmented .blue {
+	background:#e6f3fe;
+	}
+
+.breadcrumb {
+	font-size:9px; line-height:12px;
+	padding:7px 20px 10px 20px; 
+	}
+
+.login 
+{
+    float:right;font-weight:bold;
+}
+	
+.content {
+	margin:0; 
+	padding:7px 3px 10px 3px;
+	width:100%;
+	}
+	
+.content_border {
+	border:1px solid #e5e5e5;
+	padding:2px; margin:0;
+	}
+	
+	
+.blue_grad {
+	/*background:#fff url(../../Common/images/bg_content_teamSummary.gif) repeat-x*/;
+	padding:20px;
+	}
+	
+.blue_grad.short {
+	background:url(../../Common/images/blue-gradient-short.jpg) repeat-x;
+	padding:0;
+	}
+	
+.row {width:100%; }
+
+.arrow {position:relative;bottom:1px;}
+
+
+/* Loading animation */
+#Loading_window
+{
+    position: fixed;
+    z-index: 102;
+    display: block;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+    width:100px;
+    height:100px;
+}
+* html #Loading_window
+{
+    /* ie6 hack */
+    position: absolute;
+    margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) +  'px' );
+}
+
+#Loading_HideSelect{
+  z-index:99;
+  position:fixed;
+  top: 0;
+  left: 0;
+  border:none;
+  filter:alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+  height:100%;
+  width:100%;
+}
+
+* html #Loading_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+} 
+
+
+/********** FIND A LEAGUE *****************/
+
+
+.blue_grad.findTeam ul.li_head.findTeam {
+	display:block;
+	}
+
+.blue_grad.findTeam ul.li_head.findTeam li {
+	border-right:none;
+	font:bold 16px/16px Arial, Helvetica, sans-serif;
+	padding:11px 10px 3px 18px;
+	}
+	
+	
+.blue_grad.findTeam label {
+	width:100%;
+	float:left;
+	}
+	
+.blue_grad.findTeam input.short {
+	width:80px;
+	background:white;
+	}
+	
+.blue_grad.findTeam input.med {
+	width:96%;
+	background:white;
+	}
+	
+.blue_grad.findTeam input.long {
+	width:96%;
+	background:white;
+	}
+	
+.blue_grad.findTeam .row select {
+	width:85px;
+	margin:0; padding:0;
+	}
+	
+.blue_grad.findTeam .row textarea {
+	width:95%; height:100px;
+	margin:0; padding:0;
+	}
+		
+.blue_grad.findTeam .form_note {float:left; margin-left:5px; color: #003871; width:100%;}
+
+/********** FIND A LEAGUE - NONE AVAILABLE *****************/
+
+.notice.find {padding:15px 20px 20px 20px; margin-top:20px; border:1px solid #ed2217;}
+span.red14 {color:#ed2217; font-size:14px; line-height:18px;}
+
+.blue_grad.findTeam .content {padding-top:15px;}
+
+.blue_grad.findTeam .content .info {margin-right:50px;}
+
+.blue_grad.findTeam .content fieldset {border:none; margin:0; padding:0;}
+
+.blue_grad.findTeam .content label.one {}
+.blue_grad.findTeam .content label.two {width:60px;}
+.blue_grad.findTeam .content label.three {width:60px;}
+.blue_grad.findTeam .content label.four {width:100px;}
+.blue_grad.findTeam .content label.five {}
+
+.blue_grad.findTeam .content label.one.check, 
+.blue_grad.findTeam .content label.two.check, 
+.blue_grad.findTeam .content label.three.check, 
+.blue_grad.findTeam .content label.four.check,
+.blue_grad.findTeam .content label.five.check {font-weight:normal}
+
+.blue_grad.findTeam .content label.two, 
+.blue_grad.findTeam .content label.three, 
+.blue_grad.findTeam .content label.four, 
+.blue_grad.findTeam .content label.five {text-align:left; padding-right:7px;}
+
+
+/********** REGISTRATION FORM ************/	
+
+.blue_grad.reg label {
+	width:100%;
+	float:left;
+	}
+	
+.blue_grad.reg label txt {
+	background:url(../../Common/images/bg_content_teamSummary.gif) repeat-x;
+	width:100%;
+	float:left;
+	}
+	
+.blue_grad.reg .form_note {float:left; margin-left:5px; width:100%;}
+
+ul.li_head {
+	list-style:none; 
+	margin:0; padding:0;
+	/*border-bottom:1px solid #ccd7e3;*/
+	}
+
+ul.li_head li {
+	float:left;
+	list-style:none; 
+	margin:0; padding:11px 10px 0 10px;
+	/*border-right:1px solid #aac5e4;*/
+	font:bold 12px/12px Arial, Helvetica, sans-serif;
+	height:22px;
+	}
+	
+ul.li_head li.txt {
+	width:200px;
+	}
+	
+ul.li_head li.captain {
+	width:59px;
+	}
+	
+ul.li_head li.remove {
+	width:55px;
+	}
+	
+ul.li_head li.last {
+	border-right:none;
+	}
+	
+	
+.autofill {float:right; width:80px; font-size:10px; font-weight:normal; margin-top:-1px;}
+.autofill label, .autofill input {float:right; font-size:10px; font-weight:normal; margin:0 0 0 0; padding:0;}
+.autofill label {margin:0 0 0 4px; line-height:16px;}
+
+.reg_row {
+	margin:0; padding:9px 0px 7px 8px; 
+	border-bottom:1px solid #e5e5e5;
+	width:100%; 
+	}
+	
+.reg_row.bottom {
+	border-bottom:3px solid #e5e5e5;
+	}
+	
+input.reg {
+	width:100%;
+	margin:0 31px 0 0;
+	}
+	
+input.check {margin:3px 67px 0 0;}
+	
+.remove_it {
+	float:left;
+	margin:0 0 0 0; padding:0;
+	}
+	
+.fine_print {
+	font-size:11px; line-height:14px;
+	margin:10px 0 10px 5px;
+	color: #555;
+	}
+	
+input.error_fix {border:2px solid #ED2117;}
+
+/********** RECORD A SCORE ****************/
+
+ul.li_head.record {
+	padding:0 0 0 10px;
+	/*width:797px; */
+	}
+
+ul.li_head.record li {
+	float:left;
+	list-style:none; 
+	margin:0; padding:0px 0 0 0;
+	border-right:none;
+	font:normal 11px/11px Arial, Helvetica, sans-serif;
+	height:22px;
+	}
+	
+ul.li_head.record li select { 
+	margin:0 5px 0 0; padding:0;
+	}
+	
+ul.li_head.record li.text_1 { 
+	padding-top:10px
+	}
+	
+ul.li_head.record li.text_1.margin-right40 { 
+	margin-right:40px;
+	}
+	
+ul.li_head.record li.text_1.margin-right10 { 
+	margin-right:10px;
+	}
+	
+ul.li_head.record li a.date { 
+	background:url(../images/icon_calendar.gif) no-repeat;
+	width:14px; height:14px;
+	display:block; text-indent:-9999px;
+	}
+	
+/* Header Row */
+
+.col-1 {float:left; /*width:80px;*/}
+.col-2 {float:left; /*width:485px;*/}
+.col-3 {float:left; /*width:117px;*/}
+.col-4 {float:left; /*width:118px;*/}
+
+ul.li_head.header-row {
+	list-style:none; background:#f5f5f5; 
+	margin:0; padding:0; 
+        /*width:807px; */
+	border-bottom:1px solid #ccd7e3;
+	}
+
+ul.li_head.header-row li {
+	float:left;
+	list-style:none; 
+	margin:0; padding:10px 0 10px 0;
+	/*border-right:1px solid #ccc;*/
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	height:53px;
+	}
+	
+ul.li_head li.blank {background:#fff;}	
+ul.li_head li.last {border-right:none;}
+
+ul.li_head.header-row li ul {
+	list-style:none; 
+	float:left; padding:0 0 0 15px; margin:0;
+	}
+	
+ul.li_head.header-row li.col-2 ul {
+	width:132px;  
+	}
+	
+ul.li_head.header-row li ul li {
+	list-style:none; 
+	float:none; height:auto;
+	border-right:none;
+	margin:0; padding:0;
+	}
+
+ul.li_head.header-row li ul li.header {
+	font:bold 10px/16px Arial, Helvetica, sans-serif;	
+	}
+	
+ul.li_head.header-row li ul li.sm {
+	font:normal 10px/13px Arial, Helvetica, sans-serif;	
+	}
+	
+/* Data Row */
+
+.rec_row {
+	margin:0; padding:0 0 0 0; 
+	border-bottom:1px solid #e5e5e5;
+	width:100%; 
+	}
+	
+.rec_row.bottom {
+	border-bottom:3px solid #e5e5e5;
+	}
+
+.rec_row .col-1  {
+	float:left; /*padding:15px 10px 0px 10px;*/
+	}
+	
+.rec_row .col-2, .rec_row .col-3, .rec_row .col-4  {
+	float:left; padding:15px 15px 0px 15px;
+	}
+	
+.rec_row .col-2 {
+	background:#c1d7ed; min-height:115px; height:auto !important;  height:115px; width:92%;
+	}
+
+.rec_row .col-1 {width:100%;}
+/*.rec_row .col-2 {width:100%;}
+.rec_row .col-3 {width:100%;}
+.rec_row .col-4 {width:100%;}*/
+
+.rec_row ul {
+	float:left;
+	list-style:none;
+	margin:0; padding:0 0 0 0; 
+	}
+
+.rec_row .col-2 select {width:180px;}
+	
+span.vs {
+	float:left;
+	margin:0;  padding:7px 2px 7px 20px; 
+	}
+
+.rec_row fieldset {border:none; padding:0; margin:0;}	
+.rec_row .col-3 input {width:20px; margin-bottom:15px;}
+	
+.specific-error
+        {
+            background: #ed2117 ;
+            padding: 1px 0px 0px 5px;
+            height: 20px;
+            width: 100%;
+            color: White;
+            background-color: #ed2117;
+        }
+
+/********** STATS & STANDINGS ************/
+
+fieldset.float-left {
+	float:left;
+	width:90%; /*height:50px;*/ padding:20px 10px 20px 20px ;
+	}
+
+#accordion fieldset.float-left label {
+	float:left; margin-right:7px;
+	}
+	
+#accordion fieldset.float-left input{
+	width:200px; margin-bottom:10px;
+	}
+	
+.or {
+	float:left;
+	width:50px; font:bold 16px/16px Arial, Helvetica, sans-serif;
+	margin:20px;
+	}
+	
+.cancel {
+	float:left; margin-top:4px; 
+	width:50px; font:normal 11px/11px Arial, Helvetica, sans-serif;
+    height: 11px;
+}
+	
+#accordion input.button {
+	padding-left:10px; padding-right:10px; margin-right:10px; margin-left:0;
+	}
+	
+#accordion .row {
+	padding:0 0 15px 0; margin:0; clear:both; width:100%;
+	}
+/********** ACCORDION ************/
+
+/* root element for accordion. decorated with rounded borders and gradient background image */
+#accordion {
+	border:1px solid #e6e6e6; padding:1px;
+	width:100%;
+	}
+	
+#accordion div {
+	padding:10px 20px;
+	}
+
+/* accordion header */
+#accordion h3 {
+	background-color: #ddd;
+	margin:0; padding:5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	border:1px solid #fff;
+	border-bottom:1px solid #ddd;
+	cursor:pointer;		
+	}
+	
+#accordion h3 a {
+	padding:5px 15px 5px 0px;
+	font-size:12px; color:#000;
+	font-weight:bold; text-decoration:none;
+	cursor:pointer;		
+	}
+
+/* currently active header */
+#accordion h3.ui-state-active {
+	background-color: #aaa;
+	margin:0; padding:5px 10px;	
+	font-size:12px;
+	font-weight:normal;
+	border:1px solid #fff;
+	border-bottom:1px solid #ddd;
+	cursor:pointer;	
+	}
+	
+#accordion h3.ui-state-active a {
+	background:url(../images/icon_minus.gif) left 7px no-repeat;
+	padding:5px 15px 5px 0px;
+	font-size:12px; color:#000;
+	font-weight:bold; text-decoration:none;
+	cursor:pointer;	
+	}
+
+/********** USTA CLASSES AND STYLES ************/
+
+.cmsTowerAd {display:block;
+height:auto;
+margin-bottom:5px;
+margin-left:auto;
+margin-right:auto;
+width:160px;
+}
+
+#TopAds{width:1000px;height: 101px;background: #003871;}
+#TopAd1{float:left;padding:5px 0; position:relative}
+#TopAd2{float:right;padding:5px 0; position:relative}
+/*
+.headerAds {
+	width: 1000px;
+	height: 101px;
+	background: #003871;
+}
+
+.headerAds .leftHeaderAd {
+	float: left;
+	margin: 5px 0 6px;
+}
+
+.headerAds .rightHeaderAd {
+	float:right;
+	margin: 5px 0 6px;
+}
+*/
+
+
+/****************************************/
+/*******TENNIS LINK NAVIGATION ************/
+/***************************************/
+
+
+.TennisLinkTopNav {
+	height: 27px;
+	width: 1000px;
+	border-top: 2px solid #fff;
+	background: url(../../Common/images/tennis-link-nav.jpg) repeat-x top;
+	font-size: 11px;
+}
+
+.TennisLinkTopNav ul {
+	list-style: none;
+}
+
+.TennisLinkTopNav ul li {
+	list-style: none;
+	display: block;
+	float:left;
+	margin-top: 5px;
+	padding: 6px 0px 0px 0px;
+}
+
+
+.TennisLinkTopNav ul li a{
+	display: block;
+	border-right: 1px solid #003871;
+	padding: 0px 12px;
+	font-weight: bold;
+	line-height: 10px;
+}
+
+.TennisLinkTopNav ul li.active {
+	background: #fff;
+	padding-bottom: 6px;
+	margin-left: -1px; /*new*/
+}
+
+.TennisLinkTopNav ul li.active a{
+	border-right: none;
+	color: #000;
+}
+
+.TennisLinkTopNav ul li.active a:hover{
+text-decoration: none;
+}
+
+.active-logo {
+	float: right;
+	background:url(../images/active_logo.gif) no-repeat top right;
+	height: 20px;
+	width: 168px;
+	display: inline-block;
+	color: #666;
+	font-size: 10px;
+	padding-top: 7px;
+	margin: 0px 8px 0px 15px;
+	
+}
+
+.help {
+		float: right;
+		display: inline-block;
+		padding: 6px 8px 0px 0px;
+		font-weight: bold;
+}
+/*******End TennisLink Nav ***************************/
+
+
+
+
+/****************************************/
+/*******FORMS ***************************/
+/***************************************/
+
+/* general forms.css */
+label {font-weight:bold; color: #003871; font-size: 12px;}
+fieldset {padding:1.4em;margin:0 0 1.5em 0;border:1px solid #ccc;}
+legend {font-weight:bold;font-size:1.2em;}
+input.text, input.title, textarea, select {margin:0.5em 0;border:1px solid #bbb;}
+input.text:focus, input.title:focus, textarea:focus, select:focus {border:1px solid #666;}
+input.text, input.title {width:300px;padding:5px;}
+input.title {font-size:1.5em;}
+textarea {width:390px;height:250px;padding:5px;}
+
+.error, .error_full, .error_tourn, .notice, .success, .warning {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
+.error, .error_full, .error_tourn {background:#ED2117;color:#fff;}
+.notice {background:#fff;border-color:#ED2117;}
+.success, .warning {background:#E6EFC2;color:#264409;border-color:#C6D880;}
+.error a, .error_full a {color:#fff;}
+.notice a {color:#514721;}
+.success a {color:#264409;}
+.required {color:#ED2117;}
+.inputErrorHighlight {border:2px solid red}
+
+.error {
+	background:#ed2117;
+	padding:7px 15px 3px 42px;
+	height:40px;
+	border:none;
+	}
+
+.error_score {
+	background:#ed2117;
+	height:40px;
+	border:none;
+	}
+	
+.error_full {
+	background:#ed2117;
+	padding:7px 20px 6px 20px;
+	/*width:240px; height: 50px;*/
+	border:none;
+	}
+.error_tourn {
+	background:#ed2117;
+	padding:7px 20px 6px 20px;
+	width:240px; height: 75px;
+	border:none;
+	}
+
+.tall {
+	height:50px;
+	}	
+	
+.error.margin10 {
+	margin-right:10px;
+	}
+	
+.error.margin10 {
+	margin-right:10px;
+	}
+	
+	
+/* specific forms.css */
+
+.search-form {
+height: 40px;
+}
+
+.inline-search-form {
+display: inline;
+}
+
+input.button {
+	background:#001c48;
+	color: #fff;
+	height: 40px;
+	border: 1px solid #000;
+	/*display: block;*/
+	display: inline;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px 4px 1px 4px;
+	/* text-shadow: #fff 1px 1px 1px; */
+	margin-left: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input.redbutton {
+	background:#001c48;
+	color: #fff;
+	height: 32px;
+	border: 1px solid #fff;
+	/*display: block;*/
+	display: inline;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0px 1px 0px 1px;
+	/* text-shadow: #fff 1px 1px 1px; */
+	margin-left: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input.wide {
+	width:100%;
+}
+
+input.button:hover {
+	background: 001c48;
+	color: #1A8CFF;
+	border: 1px solid #1A8CFF;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+input.button.continue {	
+	margin-top:10px;
+	padding: 0px 25px 3px 25px;
+	background: url(/Assets/USTA+TennisLink+Mobile+Digital+Assets/mobile-btn-bg.png) repeat-x;
+}
+
+input.redbutton:hover {
+	background: 001c48;
+	color: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+input.redbutton.continuered {	
+	margin-top:5px;
+	padding: 0px 5px 0px 5px;
+	background: url(../images/usta/mobile-btn-red-bg.png) repeat-x;
+	width:49%;
+}
+
+input.button.continue_2 {	 
+	padding: 0px 25px 3px 25px;
+	margin-right:10px;
+	background: url(/Assets/USTA+TennisLink+Mobile+Digital+Assets/mobile-btn-bg.png) repeat-x;
+}
+
+
+/**********************************************************/
+/*******Styles for Dashboard Pages (League and TennisLink********/
+/*********************************************************/
+
+.UserBadge {
+	background: url(../../Common/images/user-badge.jpg) no-repeat center top;
+	height: 70px;
+	padding: 10px;
+}
+
+.UserBadge h1 {
+	margin: 0px 0px 5px 0px;
+	float:left;
+	/*width: 500px;*/
+	display: block;
+}
+
+.UserBadge h2 a {
+	font-size:12px;
+	
+}
+
+.UserAvatar {
+	width: 50px;
+	height: 50px;
+	border: 3px solid #fff;
+	float:left;
+	margin: 0px 10px 15px 0px;
+}
+
+.UserBadgeLocation {
+	/*width: 100%;*/
+        margin-left:66px;
+}
+
+.AccountSettings 
+{
+    float:left;
+	height:200px;
+	width:700px;
+
+}
+
+.UserBadgeMisc {
+
+	/*width: 100%;*/
+        margin-left:66px;
+}
+
+/*** Tennis Link User Badge ****/
+
+.UserBadgeTL {
+	background: url(../../Common/images/user-badge-tl.jpg) repeat-x center top;
+	height: 70px;
+	padding: 10px;
+}
+
+/** end Tennis Link User Badge ***/
+
+.DashboardMainColumn {
+	width: 100%;
+	/*float:left;*/
+	margin-right: 12px;
+}
+
+.DashboardRightColumn {
+	width: 100%;
+	/*float:right;*/
+}
+
+.DashboardActionsContainer {
+	/*border-top: 4px solid #bfd5ed;
+	background: url(../../Common/images/gray-gradient-light.jpg) repeat-x top;
+	overflow: auto;
+	position: relative;*/
+}
+
+.DashboardActionsInner {
+	/*float:left;
+	border-right: 1px solid #e5e5e5;
+	width: 172px;*/
+	padding: 12px 12px 12px 12px !important;
+	/*height: 200px;
+	display: inline-block;*/
+}
+
+
+.DashboardQuickLinks, .DashboardTournamentPromo,  .DashboardFlexPromo, .DashboardAboutUSTALeagues, .DashboardAboutTournaments{
+	background: #fff repeat-x;
+	padding: 12px;
+
+}
+.DashboardQuickLinks {
+	
+}
+	
+
+ul.quick-links {
+	list-style: none;
+	margin: 0;
+}
+
+ul.quick-links li {
+	list-style: none;
+}
+
+ .DashboardTournamentPromo h2,  .DashboardFlexPromo h2 {
+	 line-height: 19px;
+ }
+ 
+ /**********************************************************/
+/*******Styles for Team Summary Pages (League and TennisLink********/
+/*********************************************************/
+
+
+.TeamSummaryDetail {
+	background:url(../../Common/images/bg_content_teamSummary.gif) repeat-x;
+	min-height:190px; height:auto !important;  height:190px;
+	padding: 10px 20px;
+	}
+	
+.TeamSummaryDetail h1 {
+padding-bottom: 10px;
+	}
+
+.UserNav {
+	float:right; display:inline;
+	width:280px;
+	padding:13px 0 0 0;
+	}
+
+.UserNav a {
+	padding:0 4px 0 4px; margin:0 4px 0 4px;
+	}
+	
+.TeamSummaryMainColumn {
+	width: 100%;
+	}
+
+/* Table */
+	
+.TeamSummaryTable thead{
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+.TeamSummaryTable thead.tabbedsubhead{
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	color: #666;
+	font-weight: bold;
+}
+
+.TeamSummaryTable thead.tabbedsubhead span {
+	display: inline-block;
+	float:left;
+	padding: 2px 6px 0px 10px;
+}
+
+.TeamSummaryTable thead th {
+	font-weight: bold;
+	padding: 8px 6px;
+}
+
+.TeamSummaryTable tbody {
+margin: 0px;
+}
+
+.TeamSummaryTable td {
+	padding: 7px 6px;
+	margin: 0;
+	font-size: 11px;
+}
+
+.TeamSummaryTable td {padding-top:0; vertical-align:top; line-height:14px;}
+
+.TeamSummaryTable td.subhead {
+	font-weight: bold; font-size:10px; line-height:12px;
+	border-top: 1px solid #fff;
+	padding: 3px 6px;
+}
+
+.TeamSummaryTable td.top {}
+.TeamSummaryTable td.bottom {}
+.TeamSummaryTable td.td-combined{}
+
+	
+/**********************************************************/
+/*******Styles for Member Dashboard ********/
+/*********************************************************/
+
+.YearSelect {
+	background:#bed5ed;
+	padding:0 2px 0 10px; margin:0 0 10px 0;
+	}
+	
+.YearSelect label {
+	float:left; 
+	padding:0; margin:9px 4px 0 0;
+	}
+	
+a#PrintIcon  {
+	float:right;
+	background:url(../../Common/images/icon_print.gif) no-repeat;
+	width:40px; height:14px;
+	padding:0 0 0 20px; margin:9px 0 0 0;
+	display:block;
+	}
+	
+.WrapperGrey {
+	background:#fff /*url(../../Common/images/bg_grey_top.gif) left top repeat-x*/;
+	margin:0 0 10px 0; padding:0; width:100%;
+        border: 1px solid #e5e5e5
+	}
+	
+.WrapperGreyContent {
+	background:fff;
+	margin:0; padding:0; width:99%;
+	min-height:165px; height:auto !important;
+	}
+	
+.WrapperGreyLeft {
+	float:left;
+	width:40%;
+    padding:10px 5px 10px 10px;
+	}
+	
+.WrapperGreyLeft table {
+	border:1px solid #e5e5e5;
+	padding:2px; margin:0;
+	}
+	
+.float_right {float:right;}
+.float_right.dash {font-weight:normal; font-size:11px; margin-right:5px; margin-top:3px;}
+.float_left {float:left;}
+	
+.WrapperGreyRight {
+	float:right;
+	width:50%;
+	padding:10px 10px 10px 0;
+	}
+	
+#Rankings a.float_right {float:right; margin-right:10px; margin-top:1px;}
+#Rankings{
+	margin-bottom:0;
+	}
+
+.eleven {font-size:11px; font-weight:normal;}
+
+.WrapperGreyRight .DashboardActionsInner, .WrapperGreyRight .DashboardTournamentPromo {
+	background:none;
+	padding:0 0 0 0; margin:0;
+	border:none;
+	height:auto;
+	}
+	
+.WrapperGreyRight .DashboardActionsInner h2 {
+	padding:0; margin:0;
+	}
+	
+.WrapperGreyRight .DashboardActionsInner.stats  {
+    padding:10px 0 0 0; margin:10px 0 0 0;
+    border-top:3px solid #e5e5e5;
+    height: 125px;
+
+	}
+	
+.WrapperGreyRight .DashboardActionsInner.stats  .search-form {
+	margin:0; padding:0; height:auto;
+	}
+
+.WrapperGreyRight .DashboardActionsInner {
+	padding:5px 0 0 0;
+	}
+	
+.WrapperGreyRight .DashboardTournamentPromo {
+	padding:10px 0 0 0;
+	}
+	
+table.CommonTable.Segmented .center {text-align:center;}
+
+#USTALeague, #USTATourn, #TeamTennis, #FlexLeague {margin-bottom:0px; padding-bottom:0;}	
+
+ /****************************************/
+/***********TABBED AREA********************/
+/***************************************/
+
+ul.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0px 0px 0px 1px;	
+	/*border-bottom:1px solid #e5e5e5;*/	
+	height:30px;
+}
+
+ul.tabs li { 
+	float:left;	 
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+
+ul.tabs a { 
+	font-size:11px;
+	display:block;
+	text-align:center;	
+	text-decoration:none;
+	color:#333;
+	padding:5px 5px 5px 5px;
+	position:relative;
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+	margin: 5px 2px 0px 0px;
+        width:82px;
+}
+
+ul.tabs a:active {
+	outline:none;
+}
+
+
+ul.tabs a:hover {
+	color:#003871;	
+}
+
+/* active tab uses a class name "current"*/
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background: #ccc;	
+	cursor:default !important; 
+	color:#000 !important;
+	font-size: 11px;
+	/*font-weight: normal;*/
+	position:relative;
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+	padding: 5px 5px 5px 5px;
+	margin: 5px 2px 0px 0px !important;
+        width:82px;
+}
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}
+
+.panes div {
+	display:none;		
+	padding: 2px;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	background-color:#fff;
+}
+
+.panes div .printed-title {
+	display: none;
+}
+ /**********************************************************/
+/***********TENNIS LINK NOT LOGGED IN LANDING PAGE*************/
+/*********************************************************/
+
+.TennisLinkBody .tl_main_banner {
+	height: 360px;
+	border: 1px solid #ccc;
+	background: url(../../Common/images/tl_banner1.jpg) no-repeat top left;
+}
+
+.ProductIntrosOutter {
+	width: 190px;
+	float:left;
+	margin-right: 9px;
+}
+
+.ProductIntrosInner {
+	border-top: 4px solid #bfd5ed;
+	background: url(../../Common/images/gray-gradient-light.jpg) repeat-x top;
+	overflow: auto;
+	position: relative;
+	padding: 10px;
+	height: 320px;
+}
+
+.ProductIntrosInner h2 a {
+	color: #333;
+}
+
+.ProductIntrosInner h2 a:hover {
+	text-decoration: none;
+}
+
+.ProductIntrosInner img {
+	margin-bottom: 10px;
+}
+
+/***** Where I fit widget ******/
+
+.widget {
+	position: relative;
+	float:right;
+	margin: 165px 20px 0px 50px;
+	width: 340px;
+	border: 4px solid #fff;
+	
+}
+
+.widget_inner {
+	border-top: 4px solid #6d9bcf;
+	background: url(../../Common/images/blue-gradient-tall.jpg) repeat-x top left #fff;
+	padding: 10px;
+	overflow: auto;
+	min-height: 100px;
+}
+
+.widget_inner h2{
+	font-weight: bold;
+	margin-bottom: 6px;
+	line-height: 20px;
+	display: block;
+	width: 315px;
+}
+
+.widget_inner h3{
+	font-weight: bold;
+	margin-bottom: 8px;
+	line-height: 18px;
+	font-size: 16px;
+	display: block;
+	width: 315px;
+	color: #333;
+}
+
+.widget_inner p{
+	font-size: 12px;
+}
+
+.widget_inner a.button {
+	float:left;
+	padding-right: 2px;
+	padding-left: 2px;
+	margin-right: 5px;
+	display: block;
+}
+
+
+
+.get-started {
+	background:url(../../Common/images/button-back-tall.jpg) repeat-x;
+	color: #fff;
+	height: 28px;
+	border: 1px solid #255fa8;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+	padding: 6px 35px 0px 35px;
+	text-shadow: #000 1px 1px 1px;
+	float:left;
+	margin-right: 10px;
+}
+
+.get-started:hover {
+	background:url(../../Common/images/button-back-tall.jpg) repeat-x 0px -34px;
+	color: #fff;
+	border: 1px solid #bb0000;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* slider ***/
+
+.widget_inner ul,
+.widget_inner ol,
+.widget_inner ul li, 
+.widget_inner ol li{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.widget_inner li {
+	display: inline-block;
+	float:left;
+}
+
+.ui-slide-wrapper,
+.ui-slide-wrapper ul {
+	margin:0;
+	width:320px;
+	  overflow:hidden;
+	  	  position: relative;
+}
+
+.ui-slide-wrapper {
+	position:relative;
+  width:330px;
+  overflow:hidden;
+  	  position: relative;
+}
+
+.ui-slide-wrapper .panel {
+	width: 315px;
+	  overflow:hidden;
+	  position: relative;
+	  height: auto;
+}
+
+.ui-slide-wrapper .panel img {
+	border: 1px solid #CCC;
+}
+
+
+  .ui-slide-wrapper ul a:hover {
+  }
+
+ a.prev {
+	  display: block;
+	  clear:both;
+	  white-space: nowrap;
+  }
+  
+.ui-slide-wrapper .active {
+	cursor:pointer;
+}
+
+.sliding .ui-slide-wrapper {
+	height:330px;
+	overflow:hidden;
+}
+
+
+ /**********************************************************/
+/***********LEAGUES NOT LOGGED IN LANDING PAGE*************/
+/*********************************************************/
+
+.TennisLinkBody .league_main_banner {
+	height: 300px;	
+	
+}
+
+.TennisLinkBody .league_main_banner .banner-right-side {
+	float:right;
+	margin: 0px;
+	padding: 200px 0px 0px 0px;
+	width: 275px;
+	text-align: center;
+	
+}
+
+.sign-up {
+	background:url(../../Common/images/button-back-tall-red.jpg) repeat-x;
+	color: #fff;
+	height: 28px;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 14px;
+	padding: 6px 35px 0px 35px;
+	text-shadow: #000 1px 1px 1px;
+	display: inline-block;
+}
+
+.sign-up:hover {
+	background:url(../../Common/images/button-back-tall-red.jpg) repeat-x 0px -34px;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.sign-in {
+	color: #fff;
+		text-shadow: #000 1px 1px 1px;
+		font-weight: bold;
+}
+
+.sign-in:hover {
+	text-shadow: none;
+	color: #fff;
+}
+/****************************************/
+/*******COMMON RESET FORMATTING********/
+/***************************************/
+
+.last_right {
+	border-right: none !important;
+}
+
+.margin-bottom5 {
+	margin-bottom: 5px;
+}
+
+.margin-bottom12 {
+	margin-bottom: 12px;
+}
+
+.margin-bottom25 {
+	margin-bottom: 25px;
+}
+
+.margin-bottom35 {
+	margin-bottom: 35px;
+}
+
+.margin-bottom0 {
+	margin-bottom: 0px;
+}
+
+.margin-left20 {
+	margin-left: 20px;
+}
+
+.margin-right15 {
+	margin-right: 15px;
+}
+
+.margin-right40 {
+	margin-right: 40px;
+}
+
+.margin-right10 {
+	margin-right: 5px;
+}
+
+.margin-right5 {
+	margin-right: 5px;
+}
+
+.margin-top25{
+	margin-top: 25px;
+}
+
+.margin-top10{
+	margin-top: 10px;
+}
+
+.padding10 {
+	padding: 10px;
+}
+
+/**********************************************************/
+/*******LOGIN PAGE ********/
+/*********************************************************/
+
+.WrapperGreyLeftLogin {
+	float:left;
+	width:98%;
+	padding:10px 10px 10px 10px;
+        background: white;
+        border: 1px solid #e5e5e5;
+	}
+	
+.WrapperGreyLeftLogin table {
+	border:1px solid #e5e5e5;
+	padding:2px; margin:0;
+	}
+	
+.LoginContent {
+	padding: 10px 20px;
+}
+
+.LoginContent h2{
+	font-size: 14px;
+	font-weight: bold;
+}
+	
+	ul.li_head li.txtlong {
+		width: 350px;
+	}
+	
+.LoginHeader p{
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+
+}
+
+.LoginHeader ul {
+	width: 365px;
+	float:left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	list-style: none;
+}
+
+.LoginHeader ul li {
+	margin: 0px 0px 5px 0px;
+}
+
+.LoginHeader ul.right {
+	float:right;
+}
+
+span.bulleted {
+	display: block;
+	margin-top: 5px;
+}
+
+.LoginOptions {
+	list-style: none;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 5px;
+}
+
+.LoginOptions li {
+	padding: 0;
+	margin: 0px 0px 3px 0px;
+}
+
+.LoginHeader ul li, span.bulleted, .FeatureBenefits li, .LoginOptions li{
+	background:url(../images/bullet.png) no-repeat left top;
+	padding-left: 10px;
+}
+
+.FeatureBenefits ul {
+	float:right;
+	width: 350px;
+	font-size: 14px;
+	list-style: none;
+}
+
+.FeatureBenefits ul li {
+	margin: 0px 0px 10px 0px;
+}
+
+.HelpBanner {
+	background: red;
+	border: 1px solid #bb0900;
+	margin: 6px 0px 10px 10px;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.HelpBanner h3 {
+	font-size: 17px;
+	display: inline;
+	font-weight: bold;
+	color: #fff;
+}
+
+/**********************************************************/
+/*******CAPTAIN MANAGEMENT  ********/
+/*********************************************************/
+
+.WrapperGreyWide {
+	padding:10px 10px;
+	}
+	
+.WrapperGreyWide table, table.bordered {
+	border:1px solid #e5e5e5;
+	padding:2px; margin:0;
+	}
+	
+.CommonTable td {
+	vertical-align: top;
+}
+
+.CommonTable thead.gray{
+	background:url(../images/gray-gradient-short.jpg) repeat-x top;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+
+.TeamSummaryDetail h1 span, .TeamSummaryDetailShort h1 span {
+font-size: 12px;
+	}
+	
+.TeamSummaryDetailShort {
+	background:url(../images/bg_content_teamSummary.gif) repeat-x;
+	/*min-height:90px;*/ 
+	height:auto !important;  
+	/*height:90px;*/
+	padding: 10px 20px 0px 20px;
+	margin-bottom: 10px;
+	}
+
+	
+.UserNavCapMan {
+	float:right; display:inline;
+	width:280px;
+	padding:13px 0 0 0;
+	text-align: right;
+	}
+
+.UserNavCapMan a {
+	padding:0 4px 0 4px; margin:0 4px 0 4px;
+	}
+	
+.CancelLink {
+	display: inline-block;
+	padding: 12px 0px 0px 10px;
+}
+
+td.MatchType {
+	background: #ebf2f9;
+}
+
+/* tooltip styling */
+
+.tooltip {
+	display:none;
+	background: url(../images/tooltip_arrow.gif) no-repeat left center;
+}
+
+.tooltipScrollable {
+	height: 190px;
+	overflow: auto;
+	border-bottom: 1px solid #999;
+	margin-bottom: 8px;
+}
+	
+	
+.tooltipbody {
+	background: #fff;
+	height:240px;
+	padding:10px;
+	width:250px;
+	font-size:11px;
+	border: 2px solid #91bee4;
+	margin-left: 11px;
+    overflow: auto;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.tooltipbody h3{
+	border-bottom: 1px dotted #ccc;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.tooltipbody ul {
+	list-style: none;
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+}
+
+.tooltipScrollable li {
+	border-bottom: 1px solid #CCC;
+	padding: 3px 0px;
+}
+
+.tooltipbody li span {
+	display: block;
+	padding-left: 25px;
+}
+	
+
+/*modal*/
+
+.modal {
+		background-color:#fff;
+		display:none;
+		width:350px;
+		padding:15px;
+		text-align:left;
+		border:2px solid #91bee4;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		-moz-box-shadow: 0 0 10px #000;
+		-webkit-box-shadow: 0 0 10px #000;
+	}
+	
+	.modal h2 {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	
+	/* Tool Bar */
+	
+.ToolBar {
+	background: #b6b6b6;
+    border: 1px solid #929292;
+	padding: 4px;
+	margin-bottom: 5px;
+	overflow: auto;
+
+}
+
+.ToolBar .button {	
+	background: url(../images/gray-button.jpg) repeat-x top #e5e5e5;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		border: 1px solid #666;
+		padding: 5px 10px 6px 10px;
+		color: #333;
+		font-size: 12px;
+		text-shadow: none;
+		height: 27px;
+		font-weight: bold;
+		display: inline;
+}
+
+.ToolBar .inactive{	
+		border: 1px solid #999;
+		color: #999;
+
+}
+
+.ToolBar .button:hover {
+	background: url(../images/gray-button.jpg) repeat-x top #e5e5e5;
+	border: 1px solid #333;
+	color: #000;
+}
+
+.ToolBar .inactive:hover{	
+		border: 1px solid #999;
+		color: #999;
+		cursor: default;
+
+}
+
+.ToolBar a {
+	display: inline-block;
+	padding: 5px 0px 0px 8px;
+}
+
+.ToolBar select {
+	float:right;
+}
+
+span.normal {
+	font-size: 12px;
+}
+
+span.normal span{
+	color: #F00;
+	font-weight: bold;
+}
+
+.tabbedsubhead select {
+	margin: 0;
+}
+
+/* availability filter */
+
+.AvailabilityFilter {
+	padding: 0px 20px 10px 20px;
+	border-bottom: 1px solid #ccc;
+	overflow: auto;
+}
+
+.AvailabilityFilter .SectionContainer {
+	float:left;
+	width: 240px;
+	margin-right: 18px;
+}
+
+.AvailabilityFilter .SectionContainerLast {
+	float:left;
+	width: 240px;
+	margin-right: 0px;
+}
+
+.AvailabilityFilter .section {
+
+	border: 1px solid #999;
+	height: 125px;
+	overflow: auto;
+}
+
+.AvailabilityFilter .row {
+	text-align: center;
+}
+
+.AvailabilityFilter .button {
+	display: inline-block;
+}
+
+/* Availability tables */
+
+.AvailabilityTableContainer {
+	width: 770px;
+overflow-x: scroll; overflow-y: hidden;
+		border:1px solid #e5e5e5;
+	padding:2px; margin:0;
+	margin-bottom: 10px;
+}
+
+.AvailabilityTable {
+	width: auto;
+}
+
+.AvailabilityTable th.date, .AvailabilityTable td.name {
+	border-right: 1px solid #999;
+}
+
+.AvailabilityTable th.date {
+	text-align: center;
+}
+
+.AvailabilityTable td.avail {
+	border-right: 1px solid #E5E5E5;	
+}
+
+.AvailabilityTable td.sched {
+	border-right: 1px solid #999;	
+}
+
+.footnotes {
+	width: 200px;
+	float:left;
+ margin: 20px 0px;
+}
+
+/*edit lineup */
+
+textarea.announcements {
+	width: 600px;
+	height: 100px;
+}
+
+
+/* the input field */
+.date {
+
+}
+
+/* calendar root element */
+#calroot {
+	/* place on top of other elements. set a higher value if nessessary */
+	z-index:10000;
+	
+	margin-top:-1px;
+	width:198px;
+	padding:2px;
+	background-color:#fff;
+	font-size:11px;
+	border:1px solid #ccc;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-moz-box-shadow: 0 0 15px #666;
+	-webkit-box-shadow: 0 0 15px #666;	
+}
+
+/* head. contains title, prev/next month controls and possible month/year selectors */
+#calhead {	
+	padding:2px 0;
+	height:22px;
+} 
+
+#caltitle {
+	font-size:14px;
+	color:#0150D1;	
+	float:left;
+	text-align:center;
+	width:155px;
+	line-height:20px;
+	text-shadow:0 1px 0 #ddd;
+}
+
+#calnext, #calprev {
+	display:block;
+	width:20px;
+	height:20px;
+	background:transparent url(../images/prev.gif) no-repeat scroll center center;
+	float:left;
+	cursor:pointer;
+}
+
+#calnext {
+	background-image:url(../images/next.gif);
+	float:right;
+}
+
+#calprev.caldisabled, #calnext.caldisabled {
+	visibility:hidden;	
+}
+
+/* year/month selector */
+#caltitle select {
+	font-size:10px;	
+}
+
+/* names of the days */
+#caldays {
+	height:14px;
+	border-bottom:1px solid #ddd;
+}
+
+#caldays span {
+	display:block;
+	float:left;
+	width:28px;
+	text-align:center;
+}
+
+/* container for weeks */
+#calweeks {
+	background-color:#fff;
+	margin-top:4px;
+}
+
+/* single week */
+.calweek {
+	clear:left;
+	height:22px;
+}
+
+/* single day */
+.calweek a {
+	display:block;
+	float:left;
+	width:27px;
+	height:20px;
+	text-decoration:none;
+	font-size:11px;
+	margin-left:1px;
+	text-align:center;
+	line-height:20px;
+	color:#666;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px; 		
+} 
+
+/* different states */
+.calweek a:hover, .calfocus {
+	background-color:#ddd;
+}
+
+/* sunday */
+a.calsun {
+	color:red;		
+}
+
+/* offmonth day */
+a.caloff {
+	color:#ccc;		
+}
+
+a.caloff:hover {
+	background-color:rgb(245, 245, 250);		
+}
+
+
+/* unselecteble day */
+a.caldisabled {
+	background-color:#efefef !important;
+	color:#ccc	!important;
+	cursor:default;
+}
+
+/* current day */
+#calcurrent {
+	background-color:#498CE2;
+	color:#fff;
+}
+
+/* today */
+#caltoday {
+	background-color:#333;
+	color:#fff;
+}
+
+/* footer */
+
+.ustaFooterWrapper {width:1000px; background-color:#003871;}
+.ustaFooterWrapper .ustaFooter {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#fff; padding:10px 0;}
+.ustaFooterWrapper .ustaFooter a, .ustaFooterWrapper .ustaFooter a:link, .ustaFooterWrapper .ustaFooter a:visited {color:#fff;font-weight:bold;text-decoration:none;}
+.ustaFooterWrapper .ustaFooter a:hover {color:#fff;font-weight:bold;text-decoration:underline;}
+.ustaFooterWrapper .ustaFooter a:active {color:#fff;font-weight:bold;text-decoration:none;}
+.ustaFooterWrapper .ustaFooter p {margin:0 0 0.3em 0; padding:0;}
+
+/* end footer */
+
+/**My Tournaments Search page **/
+
+.help_link {
+	float:right;
+	margin-top: 10px;
+}
+
+.quick_search {
+	padding: 5px;
+}
+
+.quick_search h3 {
+	font-weight: bold;
+	height: 15px;
+}
+
+.title {
+	font-weight:normal;
+	vertical-align:middle;
+}
+
+.title.inline {
+	display:inline;
+	padding-right:10px;
+}
+
+.search_label {
+	font-weight:bold;
+	float:left;
+	text-align:left;
+}
+
+#dropdown_form {
+	/*line-height: 30px;*/
+	width: 100%;
+}
+
+#dropdown_form td {
+	height: 20px;
+	/*vertical-align:top;*/
+}
+
+.tournament_location {
+	height:60px;
+	display:inline;
+	text-align:left;
+	width:275px;
+	display:block;
+}
+
+.tournament_location td 
+{
+  padding: 0px 2px 0px 0px!important; 
+  vertical-align:middle!important;  
+}
+
+.tournament_location table
+{
+  width:inherit!important; 
+}
+
+.tournament_date {
+	height:40px;
+	display:inline;
+	text-align:left;
+	width:275px;
+	display:block;
+}
+
+.tournament_date td 
+{
+  padding: 0px 2px 0px 0px!important; 
+  vertical-align:middle!important;  
+}
+
+.tournament_date table
+{
+  width:inherit!important; 
+}
+
+.tdm_message table
+{
+  width:100% !important;
+  font-size:12px !important;
+}
+
+.CommonBox.margin-width {
+	margin: 10px 0px;
+	width: 585px;
+	float:left;
+	height: auto;
+}
+
+#advanced_search {
+	margin-top:7px;
+        margin-bottom:10px;
+}
+
+#shortcuts {
+	padding: 5px 10px;
+}
+
+#shortcuts h2 {
+		border: none;
+}
+
+#shortcuts ul {
+	margin:0px;
+}
+
+#shortcuts li {
+	list-style:none;
+	line-height: 18px;
+}
+
+.CommonBox.shortcuts {
+	width: 200px;
+	float:right;
+	padding: 2px;
+	margin-top: 10px;
+}
+
+.title.padding {
+	margin-left: 10px;
+	vertical-align:middle;
+}
+
+.title_showResults {
+	margin-left:0px;
+	font-weight:normal;
+}
+
+.year_margin {
+	margin-left:5px;
+}
+
+
+.button.margin-left {
+	margin: 0px auto 20px 533px;
+	clear:both;
+	position:relative;
+}
+
+.pagelist {
+	float: left;
+	margin-top: 3px;
+}
+
+.results_info {
+	float:left;
+	margin:13px 10px 13px 8px;
+	font-weight: bold;
+        height: 10px;
+}
+
+#modify_search{
+	padding: 30px 10px 5px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #fafad6;
+	border: 1px solid #e5e5e5;
+}
+
+#modify {
+	cursor:pointer;
+}
+
+.plain-list.compact {
+        line-height: 1em;
+        margin-left:10px;
+}
+
+
+
+/**Search Results Modify Toggle**/
+#cancel-toggle {cursor:pointer;}
+
+.modify_inner {
+	background-color: #FFF;
+	border: 1px solid #e5e5e5;
+	padding-top: 5px;
+	clear:both;
+}
+
+.options_center {
+	margin: 10px auto 10px 320px;
+	height: 30px;
+	vertical-align:middle;
+}
+
+.options_center .button {
+	margin: 10px auto 5px 5px;
+
+}
+
+.grey {
+	color: #666666;
+}
+
+
+.printer {
+	padding-left: 5px;
+	vertical-align:bottom;
+	margin-right: 4px;
+	height:18px;
+	width:19px;
+	clear:left;
+}
+
+.print_pages {
+	float:left;
+	height:20px;
+}
+
+.icons {
+	margin-bottom: 8px;
+	margin-right: 4px;
+	vertical-align: top;
+}
+
+.top_menu {
+	float:left;
+	height:28px;
+	margin-top:3px;
+}
+
+.show_results {
+	width:300px;
+	float:right;
+}
+
+
+/********** TOURNAMENT HOME PAGE ***********/
+.search.margin {
+	margin-top: 15px;
+/*	width:810px;*/
+}
+.tournament_logo {
+	float:left;
+	margin-right: 30px;
+	display:inline-block;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+.tournament_info {
+	float:left;
+	width: 600px;
+	margin-bottom:0px;
+	margin-top:0px;
+	text-align:left;
+}
+
+.tournament_info td {
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-right:5px;
+	vertical-align: top;
+}
+
+.bold_left {
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+.tournament_info.margin {
+	float:left;
+	width:600px;
+	margin-top:15px;
+}
+
+td.white-top {
+	border-top: 1px solid #FFF;
+	font-weight:bold;
+	padding-top:15px;
+}
+
+.bold {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.tournament {
+	/*background: url("../../Common/images/bg_content_teamSummary.gif") repeat-x scroll 0 0 transparent;*/
+    overflow: auto;
+    padding: 10px;
+    width: auto;
+    
+    
+background: #a8d1f9; /* Old browsers */
+
+background: -moz-linear-gradient(top, #a8d1f9 0%, #ffffff 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a8d1f9), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top, #a8d1f9 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top, #a8d1f9 0%,#ffffff 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top, #a8d1f9 0%,#ffffff 100%); /* IE10+ */
+
+background: linear-gradient(top, #a8d1f9 0%,#ffffff 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8d1f9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+.
+
+copy
+
+}
+
+
+
+.table_float {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding:0px 5px;
+}
+
+.table_float td{
+	line-height: 12px;
+	vertical-align: top;
+}
+
+
+#contact {
+	width: 240px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	padding-left:10px;
+}
+
+#entry_info, #organization {
+	width: 255px;
+	float: left;
+}
+
+.red_button {
+	background:url(../../Common/images/button-back.jpg) repeat-x 0px -22px;
+	color: #fff;
+	border: 1px solid #bb0000;
+	display: block;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 10px;
+	text-shadow: #000 1px 1px 1px;
+	padding: 3px 4px;
+	margin-top: -3px;
+}
+
+.red_button:hover {
+	background:url(../../Common/images/button-back.jpg) repeat-x;
+	color: #fff;
+	border: 1px solid #255fa8;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#edit_registration {
+	padding: 2px 2px 5px 2px;
+	border: 1px solid #e5e5e5;
+	width: 98%;
+	float:left;
+	margin-top:5px;
+}
+
+#edit_registration .head{
+	font-weight: bold;
+	/*height: 20px;*/
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	margin-left: 0px;
+	padding-left: 15px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	
+}
+
+#edit_registration ul {
+	margin-bottom: 10px;
+}
+
+#edit_registration li {
+	list-style-type: none;
+	margin-left: 15px;
+	line-height: 20px;
+}
+
+.CommonTable.width {
+	width: 550px;
+	border: 1px solid #e5e5e5;
+	padding: 2px;
+	float: left;
+	margin-bottom: 20px;
+	clear:both;
+	margin-top:10px;
+}
+
+.results_float-left {
+	float:left;	
+}
+
+.back-to-top {
+	float:right;
+	font-weight: normal;
+}
+
+
+.CommonTable.round-legend {
+	width: 200px;
+	float:right;
+	border: 1px solid #e5e5e5;
+	padding:2px;
+	margin-top:10px;
+
+}
+
+.CommonTable.round-legend td {
+	border:none;
+}
+
+td.right {
+	float:right;
+	width:30px;
+	text-align:right;
+	
+}
+
+.CommonTable.float tr {
+	border-top: 1px solid #e5e5e5;
+}
+
+#show_results {
+	float: left;
+	clear:both;
+}
+
+#important_info {
+	width: 100%;
+	float:left;
+	position:relative;
+	height:auto;
+}
+
+.tab_text {
+        margin-top: 30px;
+	clear:both;
+        font-size: 12px;
+	
+}
+
+.text {
+	margin-top: 30px;
+	clear:both;
+}
+
+.show_players {
+	float:left;
+	width:300px;
+}
+
+.show_players td 
+{
+    padding:0px!important;
+}
+
+#applicants {
+	position:relative;
+}
+
+
+td.letter {
+	color: #FFF;
+	background-color:#B4B4B4;
+	padding: 3px 5px;
+	font-weight: bold;
+	height:20px;
+}
+
+.letter_float {
+	float:left;
+}
+
+.alphabet {
+	float:right;
+	margin-top: 5px;
+	width:420px;
+	text-align:right;
+}
+
+.total {
+	margin-top: 15px;
+	padding: 5px 10px;
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	font-weight: bold;
+}
+
+.back-to-top.white a {
+	color: #FFF;
+	text-decoration:none;
+}
+
+.back-to-top.white a:hover {
+	color: #FFF;
+	text-decoration:none;
+}
+
+/*****************Vinasource CSS*******************/
+
+.usta_list td{padding:0px;}
+.usta_list .lpadding20{padding-left:20px;float:left;}
+.usta_list .FieldLabel{font-size:11px;padding:0px;font-weight:bold;}
+.usta_list .fright{float:right;}
+.usta_list .box2{height:35px;margin-top: 25px;}
+.usta_list .box2 .col1{border-top:solid 1px #E5E5E5;border-bottom:solid 1px #E5E5E5;border-left:solid 1px #E5E5E5;font-weight:bold;padding:10px 0px 10px 10px;}
+.usta_list .box2 .col2{border-top:solid 1px #E5E5E5;border-bottom:solid 1px #E5E5E5;border-right:solid 1px #E5E5E5;text-align: right;padding:10px 10px 10px 0px;}
+.usta_list .box2 .col1 input{float:left;}
+.usta_list .box2 .col1 label{float:left;margin-top:2px;}
+.usta_list .box2 .col1 select{float:left;margin:0 0 0 5px;}
+.clear15{clear:both;height:15px;}
+.CommonTable .Paging{background-color: #F2F2F2; border-top: 2px solid #E5E5E5;border-bottom: 2px solid #E5E5E5;height: 20px;width: 813px;padding: 3px 0px;text-align:right;}
+.CommonTable .Paging ul{list-style-type:none;float:right;margin:0px;}
+.CommonTable .Paging ul li{float:left;padding:2px;}
+.CommonTable .Paging ul li a{color:#003871;text-decoration:none;}
+.CommonTable .Paging ul li a:hover{color:#003871;text-decoration:underline;}
+.CommonTable thead .th{border-top: 0px solid #E5E5E5;padding: 0px;font-weight:normal}
+.CommonTable td.subhead a{color:#000;}
+.CommonTable .feildpage td{text-align:right;}
+.box1{height: 35px;border: 1px solid #E5E5E5;margin-top: 15px; padding: 10px;}
+.box1 .FieldLabel{padding:0;text-align: left;width: 200px;font-weight: normal;}
+.box1 .FieldData{font-weight: bold;font-size:11px;padding:0;}
+.box1 select{margin:0;}
+.fleft{float:left;}
+.label {font-weight:normal;}
+.clear{clear:both;}
+.modify_search_label {
+	font-weight:bold;
+	float:right;
+	text-align:right;
+	padding-top:12px;
+}
+
+.clear{clear:both;}
+.clear-10{clear:both;height:10px;}
+#toggle_search .modify_inner input{float:left;}
+#toggle_search .modify_inner label{float:left;margin-top:2px;}
+#toggle_search .modify_inner .modity_label{font-weight:bold;font-size:12px;padding-left:10px;}
+.mheader
+{
+	width:850px;height:30px;font-weight:bold;font-size:15px;padding:2px 10px;
+	background: #f2f2f2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #c3c3c3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#c3c3c3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#c3c3c3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#c3c3c3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#c3c3c3 100%); /* IE10+ */
+	background: linear-gradient(top,  #f2f2f2 0%,#c3c3c3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#c3c3c3',GradientType=0 ); /* IE6-9 */	
+}
+.mtitle{padding-top:5px;}
+
+    .RoundTitle { font-weight:bold; color:#666666; padding: 10px 0px; font-size:11px;}
+    .w420{width:420px; margin:0 auto;}
+    .clear10{clear:both; height:10px;}
+    
+    .divPopupInfo{display: none; top: 150px; left: 270px; width: 300px;
+        height: 150px; position: absolute; background-color: #c4efff; border: solid blue 3px;
+        z-index: 99999;}
+        
+    .CommonTableDraw td 
+    {
+
+        padding: 7px 6px!important;
+  
+    }
+    .CommonTableDraw1 td
+{
+        padding: 7px 6px!important;
+
+    }
+    
+     .CommonTableDraw 
+    {
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        background-color: #F2F2F2;
+        width:791px!important;
+    }
+    .CommonTableDraw1
+    {
+        border: 1px solid #E5E5E5;    
+        background-color: #F2F2F2;
+        width:791px!important;
+    }
+    .CommonTableDraw td a,.CommonTableDraw1 td a
+    {
+       
+        color:Black;
+    }
+    .CommonTableDraw td,.CommonTableDraw1 td
+    {
+        font-weight: bold;
+      
+    }
+.scroll
+{
+	padding:2px 10px;height:450px;width:850px;overflow:auto;
+}
+.noscroll
+{
+	padding:2px 10px;width:850px;overflow:auto;
+}
+.vns_table_float {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding:0px 5px;
+}
+.vns_table_float td {
+	padding:4px 10px 4px 5px;
+	vertical-align:top;
+}
+.ReqField { color:Red;}
+.navLink1{font-weight:bold;color:Red !important;text-decoration:none;}
+.navLink1:hover{font-weight:bold;color:Red;text-decoration:none;}
+.clear23{clear:both;height:23px;}
+.directhome label{font-weight:normal;}
+.clear15{clear:both;height:15px;}
+.tblBatch td{padding:2px 0px 0px 0px;}
+.rp_media{width:500px;border-top:solid 1px #a5a5a5;border-bottom:solid 1px #a5a5a5;margin-left:80px;}
+.rp_media label{font-weight:normal;}
+.rp_media_title{width:150px;float:left;text-align:left;font-weight:bold;}
+.fleft_m20{float:left;margin-right:20px;}
+.rp_media_col1{width:100px;float:left;text-align:left;}
+.rp_media_col2{width:350px;float:left;text-align:left;}
+.rp_media_col3{width:150px;float:left;text-align:left;}
+.rp_media_col4{width:160px;float:left;text-align:left;}
+.rp_media_col5{width:190px;float:left;text-align:left;}
+.fee_paid{border:1px solid #B6B6B6;width:10px;color:black;padding:1px;}
+.schedule_court_hours{float:left;padding:5px;}
+.schedule_court_hours .img_color{float:left;padding-right:5px;}
+.padding20{padding: 20px;}
+.padding60{padding: 60px;}
+.paddingl20{padding-left: 20px;}
+.paddinglr160{padding:0px 160px;}
+
+/* for sanctionform_new/achadminscreen.aspx */
+.ACHAdminScreen{padding:0px 15px;}
+.ACHAdminScreen .ASCol1{float:left;width:400px;text-align:left;}
+.ACHAdminScreen .ASCol2{float:left;width:380px;text-align:right;}
+.clear5{clear:both;height:5px;}
+
+/**************** RANKINGS ********************/
+#ranking_search {
+        margin:4px;
+}
+
+.record {
+        margin:4px;
+}
+
+.HeaderGradient {
+        margin:4px;
+}
+
+.CommonBox.name {
+        margin-top:60px;
+}

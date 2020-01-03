@@ -1,0 +1,133 @@
+
+body
+{
+	line-height: 1.5;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	background: none;
+	font-size: 10pt;
+}
+.container
+{
+	background: none;
+}
+hr
+{
+	background: #ccc;
+	color: #ccc;
+	width: 100%;
+	height: 2px;
+	margin: 2em 0;
+	padding: 0;
+	border: none;
+}
+hr.space
+{
+	background: #fff;
+	color: #fff;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Arial, "Lucida Grande" , sans-serif;
+}
+code
+{
+	font: .9em "Courier New" , Monaco, Courier, monospace;
+}
+img
+{
+	float: left;
+	margin: 1.5em 1.5em 1.5em 0;
+}
+a img
+{
+	border: none;
+}
+p img.top
+{
+	margin-top: 0;
+}
+blockquote
+{
+	margin: 1.5em;
+	padding: 1em;
+	font-style: italic;
+	font-size: .9em;
+}
+.small
+{
+	font-size: .9em;
+}
+.large
+{
+	font-size: 1.1em;
+}
+.quiet
+{
+	color: #999;
+}
+.hide
+{
+	display: none;
+}
+a:link, a:visited
+{
+	background: transparent;
+	font-weight: 700;
+	text-decoration: underline;
+}
+/* TL-14322 Remove this block since it shows unnecessary href code on the print view.
+a:link:after, a:visited:after
+{
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}*/
+
+.headerAds, .usta_header, .TennisLinkTopNav, .TennisLinkRightRail, .usta-footer
+{
+	display: none;
+}
+
+.panes div
+{
+	display: block !important;
+}
+
+.panes div .printed-title
+{
+	display: block !important;
+	font-size: 14px;
+	font-weight: bold;
+}
+.promos div.active_ad_no_height_no_border
+{
+	display: none;
+}
+div.TennisLinkFooter
+{
+	display: none;
+}
+#TopAds
+{
+	display: none;
+}
+div.ustaFooter
+{
+	display: none;
+}
+div.print_conf
+{
+	display: none;
+}
+#ctl00_SocialMediaPanel_updatePnlSocialMedia
+{
+	display: none;
+}
+.promos p.center
+{
+	display: none;
+}
+.thirdpartyhfshare, .topNavMainWrap, #ctl00_SocialMediaPanel_updatePnlSocialMedia, .fb-like, .signUpWrapper, .footerMainWrap, fb-root  {
+	display:none;
+}
+#aspnetForm{ margin:0 !important; }

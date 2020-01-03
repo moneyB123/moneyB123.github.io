@@ -1,0 +1,233 @@
+﻿.TennisLinkTopNewNav {
+ width: inherit;
+}
+ #navheader {
+    background: -moz-linear-gradient( top,#01295A,#033D82);
+    background: -ms-linear-gradient( top,#01295A,#033D82);
+    background: -o-linear-gradient( top,#01295A,#033D82);
+    background: -webkit-linear-gradient( top,#01295A,#033D82);
+    background-color:#01295A;
+}
+#navbar {
+    font-family: arial, sans-serif;
+    font-size: 14px;   
+    height: 40px;
+}
+#navbar ul {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+#navbar li {
+    list-style: none;
+    padding: 0 3px;
+    margin: 0px 0px;
+    float: left;
+    height: 40px;
+    border-right: 1px solid gray;
+    color: #212121;
+    cursor:pointer;
+    background-image:-webkit-linear-gradient(to bottom, #ffffff, #cccccc);
+    background-image:linear-gradient(to bottom,#ffffff,#cccccc);
+    background-color:#eeede9;
+    line-height: 20px;
+    vertical-align: middle;
+}
+#navbar li.login {
+    color: white;
+    cursor:pointer;
+    background-image:-webkit-linear-gradient(to bottom, red, red);
+    background-image:linear-gradient(to bottom,red,red);
+    background-color:red;
+    border-right: 0px;
+}
+
+#navbar li.login a, #navbar li.login a:hover {
+    text-decoration:none;
+    color: white;
+}
+#navbar li a, #navbar li a:hover {
+    text-decoration:none;
+    color: #212121;
+}
+#navbar li.hover, #navbar li.default{
+    background: -moz-linear-gradient( top,#033D82,#01295A);
+    background: -ms-linear-gradient( top,#033D82,#01295A);
+    background: -o-linear-gradient( top,#033D82,#01295A);
+    background: -webkit-linear-gradient( top,#033D82,#01295A);
+    background-color:#01295A;
+    color: #ffffff;
+}
+#navbar li div {
+    padding: 0;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/*quickPanel*/
+.quickPanel {
+    background: #01295A;
+    min-height: 230px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 1000;
+}
+.quickPanel div {
+    padding: 0;
+    margin: 0;
+}
+.quickPanel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.quickPanel li {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 12px;
+    margin: 0;
+    float: left;
+    width: 23%;
+}
+.quickPanel button{
+    background: #54B5E8;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    border: 0;
+    margin-bottom: 5px;
+    height: 22px;
+    cursor:pointer;   
+}
+.quickPanel .btn {
+    background: #54B5E8;
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    border: 0;
+    margin-bottom: 5px;
+    height: 25px;
+    cursor:pointer;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    display:block;
+    text-decoration: none!important;
+}
+.quickPanel a {
+    color: #0CBDE0;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.quickPanel a:hover {
+    text-decoration: underline;
+}
+.quickPanel a.button:hover {
+    text-decoration: none;
+}
+.quickPanel select {
+    width: 120px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.quickPanel input[type="text"]  {
+    -moz-min-width: 120px;
+    -ms-min-width: 120px;
+    -o-min-width: 120px;
+    -webkit-min-width: 120px;
+    min-width: 120px;
+    margin-bottom: 5px;
+}
+.quickPanel .subhead {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.quickPanel .normalDesciption {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+.quickPanel .lightDesciption {
+    color: #0CBDE0;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+.quickPanel .block {
+    border-right: 1px solid #365983;
+    min-height: 200px;
+    line-height: 1.5;
+}
+
+.quickPanel .block.last {
+    border-right: 0;
+}
+.quickPanel #q4 ul label {
+    float: left;
+    font-size: 12px;
+    vertical-align: middle;
+    width: 80px;
+}
+.quickPanel #q4 ul .block p {
+    margin-top: 0px;
+    margin-bottom:0px;
+    clear:both;
+}
+.quickPanel .dyfirst {
+    font:22px/16px arial,simsun,sans-serif;
+    text-indent:0em;
+    color:white;
+}
+.quickPanel .dyfirst:first-letter {
+    font:200% arial,simsun,sans-serif;        
+    float:left;
+}
+.quickPanel #q5 .italic { font-style:italic; }
+
+.quickPanel_Error {
+    padding: 7px 15px 3px 42px;
+    height: auto;
+    width: auto;
+    margin:0px;
+    background: url("../../Common/images/icon_error.gif") no-repeat scroll 10px top #ED2117;
+    border: medium none;
+    min-height: 20px;
+    color: #FFFFFF;
+}
+.hidden {
+    display: none;
+}
+#navheader .new-active-logo {
+    background: url("../images/PoweredbyACTIVE_W.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    height: 25px;
+    margin: 0 8px 0 15px;
+    padding-top: 15px;
+    position: relative;
+    right: 5px;
+    top: 12px;
+    width: 168px;
+    display: inline-block;
+    float: right;
+}
+
+.quickPanel #q4 #btnFindFlexLeague, #q4 #btnViewStatsAndStadings{
+    float:right;
+    margin-right:30px;
+}
+
+.quickPanel #q4 #btnFindPlayerRecord{
+    float:right;
+    margin-right:25px;
+}
+
+.quickPanel #q5 .truncate {
+    white-space: nowrap;
+    overflow: hidden;             
+    -o-text-overflow: ellipsis; 
+    text-overflow:    ellipsis; 
+}
